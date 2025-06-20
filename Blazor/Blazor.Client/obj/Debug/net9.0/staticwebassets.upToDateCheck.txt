@@ -1,0 +1,4 @@
+wwwroot\appsettings.Development.json
+wwwroot\appsettings.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\wwwroot\appsettings.Development.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\wwwroot\appsettings.json

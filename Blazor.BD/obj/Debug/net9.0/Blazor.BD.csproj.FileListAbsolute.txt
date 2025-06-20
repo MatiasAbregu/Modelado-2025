@@ -1,0 +1,14 @@
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\bin\Debug\net9.0\Blazor.BD.deps.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\bin\Debug\net9.0\Blazor.BD.runtimeconfig.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\bin\Debug\net9.0\Blazor.BD.dll
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\bin\Debug\net9.0\Blazor.BD.pdb
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\obj\Debug\net9.0\Blazor.BD.csproj.AssemblyReference.cache
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\obj\Debug\net9.0\Blazor.BD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\obj\Debug\net9.0\Blazor.BD.AssemblyInfoInputs.cache
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\obj\Debug\net9.0\Blazor.BD.AssemblyInfo.cs
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\obj\Debug\net9.0\Blazor.BD.csproj.CoreCompileInputs.cache
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\obj\Debug\net9.0\Blazor.BD.dll
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\obj\Debug\net9.0\refint\Blazor.BD.dll
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\obj\Debug\net9.0\Blazor.BD.pdb
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\obj\Debug\net9.0\Blazor.BD.genruntimeconfig.cache
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor.BD\obj\Debug\net9.0\ref\Blazor.BD.dll
