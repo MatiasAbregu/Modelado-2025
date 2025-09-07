@@ -10,13 +10,17 @@
     <ProjectReference Include="..\..\Blazor.BD\Blazor.BD.csproj" />
     <ProjectReference Include="..\..\Blazor.Repositorio\Blazor.Repositorios.csproj" />
     <ProjectReference Include="..\..\Blazor.Servicio\Blazor.Servicios.csproj" />
+    <ProjectReference Include="..\..\Blazor.Shared\Blazor.Shared.csproj" />
     <ProjectReference Include="..\Blazor.Client\Blazor.Server.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.6">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.14.0" />
   </ItemGroup>
 
 </Project>

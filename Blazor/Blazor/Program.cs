@@ -1,18 +1,53 @@
 using Blazor.BD;
+using Blazor.Repositorios.Implementaciones;
+using Blazor.Repositorios.Servicios;
 using Blazor.Server.Client.Pages;
 using Blazor.Server.Components;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Conexion") ??
-    throw new InvalidOperationException("El string de conexiín no existe.")));
+    throw new InvalidOperationException("El string de conexión no existe.")));
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+
+builder.Services.AddSwaggerGen();
+builder.Services.AddControllers();
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+}).AddJwtBearer(options =>
+    {
+        options.RequireHttpsMetadata = false; //Solo en desarrollo, posteriormente debo ponerlo en true en deploy
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidIssuer = builder.Configuration["JWT:FirmaDelBackend"],
+
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(
+                                Encoding.UTF8.GetBytes(builder.Configuration["JWT:Clave"])),
+
+            ValidateLifetime = true
+        };
+    });
+
+builder.Services.AddScoped<IUsuarioServicio, UsuarioServicio>();
+builder.Services.AddScoped<ITokenServicio, TokenServicio>();
+builder.Services.AddScoped<IRolesServicio, RolesServicio>();
+
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
@@ -20,6 +55,8 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseWebAssemblyDebugging();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 else
 {
@@ -29,7 +66,11 @@ else
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.MapControllers();
 
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.UseAntiforgery();
 

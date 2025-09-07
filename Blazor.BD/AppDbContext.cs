@@ -13,11 +13,27 @@ namespace Blazor.BD
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        DbSet<Usuario> Usuarios { get; set; }
-        DbSet<TipoProducto> TipoProductos { get; set; }
-        DbSet<TipoMaterial> TipoMateriales { get; set; }
-        DbSet<UnidadMedida> UnidadMedida { get; set; }
-        DbSet<Productos> Productos { get; set; }
-        DbSet<PropiedadesProducto> PropiedadesProductos { get;set; }
+        public DbSet<Usuarios> Usuarios { get; set; }
+        public DbSet<Roles> Roles { get; set; }
+        public DbSet<Tokens> Tokens { get; set; }  
+        public DbSet<UsuariosRoles> UsuariosRoles { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Roles>()
+                .Property(rol => rol.Id)
+                .HasDefaultValueSql("NEWID()");
+
+            modelBuilder.Entity<Usuarios>()
+                .HasOne(u => u.Token)
+                .WithOne(t => t.Usuario)
+                .HasForeignKey<Tokens>(t => t.UserId);
+
+            modelBuilder.Entity<Roles>().HasData(
+                new Roles() { Id = new Guid("b74ddd14-6340-4840-95c2-db12554843e5"), Nombre = "Administrador" },
+                new Roles() { Id = new Guid("fab4fac1-c546-41de-aebc-a14da6895711"), Nombre = "Usuario" });
+        }
     }
 }
