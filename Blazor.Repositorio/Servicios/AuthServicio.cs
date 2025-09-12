@@ -34,5 +34,10 @@ namespace Blazor.Repositorios.Servicios
             }
             else return (true, "Nombre de usuario o contraseña inválido.", null);
         }
+
+        public Task<(bool, string)> CerrarSesion()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

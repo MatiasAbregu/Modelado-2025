@@ -9,12 +9,13 @@ namespace Blazor.Shared.DTO_Usuarios
 {
     public class UsuarioCrearDTO
     {
-        [Required]
+        [Required(ErrorMessage = "El usuario debe contar con un nombre de usuario obligatoriamente.")]
         public string NombreUsuario { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "El campo de la contraseña es obligatorio.")]
         public string Contrasena { get; set; }
 
+        [Required(ErrorMessage = "Al menos debe tener un rol el usuario.")]
         public List<string> Roles { get; set; }
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Blazor.BD.Entidades
 {
-    public class Tokens : IEntityBase<long>
+    public class Tokens
     {
         [Key]
         public long Id { get; set; }

@@ -50,3 +50,16 @@ C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\De
 C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\matia\Documents\ProyectoJavi(Blazor)\Blazor\Blazor\Blazor.Client\obj\Debug\net9.0\staticwebassets.build.json

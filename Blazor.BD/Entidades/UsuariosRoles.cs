@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Blazor.BD.Entidades
 {
-    public class UsuariosRoles : IEntityBase<long>
+    public class UsuariosRoles
     {
         [Key]
         public long Id { get; set; }

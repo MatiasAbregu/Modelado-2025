@@ -11,5 +11,7 @@ namespace Blazor.Repositorios.Implementaciones
     public interface IRolesServicio
     {
         public Task<Roles> BuscarRolPorNombre(string rol);
+        public Task<bool> RolesExisten(List<string> roles);
+        public Task<List<Roles>> BuscarRolesPorNombres(List<string> roles);
     }
 }

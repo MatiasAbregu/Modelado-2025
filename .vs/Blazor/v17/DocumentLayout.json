@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\matia\\Documents\\ProyectoJavi(Blazor)\\Blazor\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{AB59241B-86B2-4213-9D88-FC7180B3080B}|Blazor.Repositorio\\Blazor.Repositorios.csproj|c:\\users\\matia\\documents\\proyectojavi(blazor)\\blazor\\blazor.repositorio\\implementaciones\\itokenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB59241B-86B2-4213-9D88-FC7180B3080B}|Blazor.Repositorio\\Blazor.Repositorios.csproj|solutionrelative:blazor.repositorio\\implementaciones\\itokenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB59241B-86B2-4213-9D88-FC7180B3080B}|Blazor.Repositorio\\Blazor.Repositorios.csproj|c:\\users\\matia\\documents\\proyectojavi(blazor)\\blazor\\blazor.repositorio\\servicios\\tokenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB59241B-86B2-4213-9D88-FC7180B3080B}|Blazor.Repositorio\\Blazor.Repositorios.csproj|solutionrelative:blazor.repositorio\\servicios\\tokenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB59241B-86B2-4213-9D88-FC7180B3080B}|Blazor.Repositorio\\Blazor.Repositorios.csproj|c:\\users\\matia\\documents\\proyectojavi(blazor)\\blazor\\blazor.repositorio\\servicios\\usuarioservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB59241B-86B2-4213-9D88-FC7180B3080B}|Blazor.Repositorio\\Blazor.Repositorios.csproj|solutionrelative:blazor.repositorio\\servicios\\usuarioservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB59241B-86B2-4213-9D88-FC7180B3080B}|Blazor.Repositorio\\Blazor.Repositorios.csproj|c:\\users\\matia\\documents\\proyectojavi(blazor)\\blazor\\blazor.repositorio\\servicios\\authservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB59241B-86B2-4213-9D88-FC7180B3080B}|Blazor.Repositorio\\Blazor.Repositorios.csproj|solutionrelative:blazor.repositorio\\servicios\\authservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB59241B-86B2-4213-9D88-FC7180B3080B}|Blazor.Repositorio\\Blazor.Repositorios.csproj|c:\\users\\matia\\documents\\proyectojavi(blazor)\\blazor\\blazor.repositorio\\implementaciones\\iauthservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB59241B-86B2-4213-9D88-FC7180B3080B}|Blazor.Repositorio\\Blazor.Repositorios.csproj|solutionrelative:blazor.repositorio\\implementaciones\\iauthservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -30,21 +9,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 275,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ITokenServicio.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\Documents\\ProyectoJavi(Blazor)\\Blazor\\Blazor.Repositorio\\Implementaciones\\ITokenServicio.cs",
-              "RelativeDocumentMoniker": "Blazor.Repositorio\\Implementaciones\\ITokenServicio.cs",
-              "ToolTip": "C:\\Users\\matia\\Documents\\ProyectoJavi(Blazor)\\Blazor\\Blazor.Repositorio\\Implementaciones\\ITokenServicio.cs",
-              "RelativeToolTip": "Blazor.Repositorio\\Implementaciones\\ITokenServicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T15:49:18.397Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -60,58 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAuthServicio.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\Documents\\ProyectoJavi(Blazor)\\Blazor\\Blazor.Repositorio\\Implementaciones\\IAuthServicio.cs",
-              "RelativeDocumentMoniker": "Blazor.Repositorio\\Implementaciones\\IAuthServicio.cs",
-              "ToolTip": "C:\\Users\\matia\\Documents\\ProyectoJavi(Blazor)\\Blazor\\Blazor.Repositorio\\Implementaciones\\IAuthServicio.cs",
-              "RelativeToolTip": "Blazor.Repositorio\\Implementaciones\\IAuthServicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T04:29:55.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthServicio.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\Documents\\ProyectoJavi(Blazor)\\Blazor\\Blazor.Repositorio\\Servicios\\AuthServicio.cs",
-              "RelativeDocumentMoniker": "Blazor.Repositorio\\Servicios\\AuthServicio.cs",
-              "ToolTip": "C:\\Users\\matia\\Documents\\ProyectoJavi(Blazor)\\Blazor\\Blazor.Repositorio\\Servicios\\AuthServicio.cs",
-              "RelativeToolTip": "Blazor.Repositorio\\Servicios\\AuthServicio.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T04:29:07.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioServicio.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\Documents\\ProyectoJavi(Blazor)\\Blazor\\Blazor.Repositorio\\Servicios\\UsuarioServicio.cs",
-              "RelativeDocumentMoniker": "Blazor.Repositorio\\Servicios\\UsuarioServicio.cs",
-              "ToolTip": "C:\\Users\\matia\\Documents\\ProyectoJavi(Blazor)\\Blazor\\Blazor.Repositorio\\Servicios\\UsuarioServicio.cs",
-              "RelativeToolTip": "Blazor.Repositorio\\Servicios\\UsuarioServicio.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBQAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T05:40:12.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TokenServicio.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\Documents\\ProyectoJavi(Blazor)\\Blazor\\Blazor.Repositorio\\Servicios\\TokenServicio.cs",
-              "RelativeDocumentMoniker": "Blazor.Repositorio\\Servicios\\TokenServicio.cs",
-              "ToolTip": "C:\\Users\\matia\\Documents\\ProyectoJavi(Blazor)\\Blazor\\Blazor.Repositorio\\Servicios\\TokenServicio.cs",
-              "RelativeToolTip": "Blazor.Repositorio\\Servicios\\TokenServicio.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T05:40:39.502Z",
-              "EditorCaption": ""
             }
           ]
         }

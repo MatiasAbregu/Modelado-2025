@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Blazor.BD.Entidades
 {
     [Index(nameof(Nombre), IsUnique = true)]
-    public class Roles : IEntityBase<Guid>
+    public class Roles
     {
         [Key]
         public Guid Id { get; set; }

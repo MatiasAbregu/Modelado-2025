@@ -90,5 +90,10 @@ namespace Blazor.Repositorios.Servicios
             return (true, "", nuevoToken);
         }
 
+        public Task<(bool, string)> RevocarToken(Token token, long usuarioId)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

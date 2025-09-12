@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Blazor.BD.Entidades
 {
     [Index(nameof(NombreUsuario), IsUnique = true)]
-    public class Usuarios : IEntityBase<long>
+    public class Usuarios
     {
         [Key]
         public long Id { get; set; }

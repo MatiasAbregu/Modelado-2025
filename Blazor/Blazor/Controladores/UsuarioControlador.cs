@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Blazor.Shared.DTO_Usuarios;
 using Blazor.BD.Entidades;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Blazor.Server.Controladores
 {
@@ -35,13 +36,27 @@ namespace Blazor.Server.Controladores
         {
             if (usuarioDTO == null) return StatusCode(400, "Hubo un error en el servidor, intentelo más tarde.");
 
-            ValueTuple<bool, string, Usuarios> res = await usuarioServicio.CrearNuevoUsuario(new Usuarios()
-            {
-                NombreUsuario = usuarioDTO.NombreUsuario,
-                Contrasena = usuarioDTO.Contrasena,
-                Estado = true
-            },
-            usuarioDTO.Roles);
+            ValueTuple<bool, string, Usuarios> res = await usuarioServicio.CrearNuevoUsuario(usuarioDTO);
+
+            if (res.Item1 == true) return StatusCode(200, res.Item2);
+            return StatusCode(400, res.Item2);
+        }
+
+        [HttpPut("{id:long}")]
+        public async Task<ActionResult> ActualizarUsuario(ActualizarUsuarioDTO usuarioDTO, long id)
+        {
+            if (usuarioDTO.Id != id) return StatusCode(409, "Hubo un error en el servidor, intentelo más tarde.");
+
+            ValueTuple<bool, string, Usuarios> res = await usuarioServicio.ActualizarUsuario(usuarioDTO);
+
+            if (res.Item1 == true) return StatusCode(200, res.Item2); 
+            return StatusCode(409, res.Item2);
+        }
+
+        [HttpDelete("{id:long}")]
+        public async Task<ActionResult> EliminarUsuario(long id)
+        {
+            ValueTuple<bool, string> res = await usuarioServicio.EliminarUsuario(id);
 
             if (res.Item1 == true) return StatusCode(200, res.Item2);
             return StatusCode(400, res.Item2);
