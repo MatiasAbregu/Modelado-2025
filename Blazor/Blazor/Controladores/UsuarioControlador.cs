@@ -21,7 +21,7 @@ namespace Blazor.Server.Controladores
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Usuarios>>> VisualizarUsuarios()
+        public async Task<ActionResult> VisualizarUsuarios()
         {
             ValueTuple<bool, string, List<UsuarioVerDTO>> res 
                 = await usuarioServicio.BuscarUsuarios();
